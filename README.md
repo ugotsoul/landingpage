@@ -1,7 +1,7 @@
-npm init
+For comiling SCSS
+
+(install npm if needed)
 
 npm install
-
-npm run build-css
 
 npm run watch-css
