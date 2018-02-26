@@ -1,0 +1,24 @@
+{
+  "name": "css-test",
+  "version": "1.0.0",
+  "description": "Pre-requisites You need Node.js installed on your computer.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss stylesheets/main.scss stylesheets/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindsaygrizzard/landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindsaygrizzard/landing-page/issues"
+  },
+  "homepage": "https://github.com/lindsaygrizzard/landing-page#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.15.1"
+  }
+}

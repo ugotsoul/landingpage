@@ -1,0 +1,28 @@
+
+// /*
+//  * Footer
+//  */
+
+#footer {
+	margin: 2rem 0;
+	font-size: 0.875rem;
+}
+
+.nav-footer {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+.nav-footer li {
+	padding: 0 1rem;
+}
+
+.nav-footer a:link,
+.nav-footer a:visited {
+	color: #696b74;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
