@@ -14,15 +14,29 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-html, body {
-  font-family: 'proxima_novaregular';
+@font-face {
+  font-family: 'Graphik Bold';
+  src: url("fonts/graphik/graphik-bold.woff2") format("woff2"), url("fonts/graphik/graphik-bold.woff") format("woff");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Graphik Medium';
+  src: url("fonts/graphik/graphik-medium.woff2") format("woff2"), url("fonts/graphik/graphik-medium.woff") format("woff");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Proxima';
+  src: url("fonts/proxima/proximanova-regular-webfont.woff2") format("woff2"), url("fonts/proxima/proximanova-regular-webfont.woff") format("woff");
+  font-style: normal; }
+
+html, body, p {
+  font-family: 'Proxima';
   color: #636363;
   font-size: 1em;
-  line-height: 1.4;
-  background-color: #fff; }
+  line-height: 1.4; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: "graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  font-family: "Graphik Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
 
 h4, .h4 {
   font-size: 1.25em; }
@@ -92,33 +106,6 @@ svg.logo-berry path {
 .illo-tote {
   position: absolute;
   top: -310px; }
-
-.form-group {
-  min-height: 40px;
-  position: relative;
-  margin-bottom: 10px; }
-
-.form-icon .form-group input,
-.form-icon .form-group .form-control {
-  padding-left: 50px;
-  width: 100%; }
-
-#signup-company .form-wrapper .form,
-#signup-accountant .form-wrapper .form {
-  padding: 25px 30px 15px 30px;
-  border: 1px solid #ededee;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #ededee;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  background-color: #ffffff;
-  border-top: 3px solid #1ec4b4;
-  padding: 20px 30px;
-  position: relative;
-  margin: 0 auto;
-  max-width: 450px; }
 
 .customer {
   display: -webkit-box;

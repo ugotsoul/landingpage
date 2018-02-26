@@ -1,51 +1,36 @@
 // Settings
-@import	'_settings/_colors.scss',
-		'_settings/_config.scss';
+@import	'_settings/_colors.scss';
 
 // Tools
 @import	'_tools/_functions.scss',
-		'_tools/_mixins.scss',
-		'_tools/_placeholders.scss';
+				'_tools/_mixins.scss',
+				'_tools/_placeholders.scss';
 
 // Base
 @import	'_base/_base.scss',
-		'_base/_fonts.scss',
-		'_base/_typography.scss';
+				'_base/_typography.scss';
+
 
 // Atoms
 @import	'_atoms/_buttons.scss',
-		'_atoms/_dividers.scss',
-		'_atoms/_inputs.scss',
-		'_atoms/_labels.scss',
-		'_atoms/_links.scss',
-		'_atoms/_illustrations.scss',
-		'_atoms/_lists.scss';
+				'_atoms/_links.scss',
+				'_atoms/_illustrations.scss',
+				'_atoms/_lists.scss';
 
 // Molecules
-@import	'_molecules/_cards.scss',
-		'_molecules/_dropdowns.scss',
-		'_molecules/_forms.scss',
-		'_molecules/_customer.scss',
-		'_molecules/_modals.scss',
-		'_molecules/_containers.scss',
-		'_molecules/_pricing-tier.scss',
-		'_molecules/_navigation.scss';
+@import	'_molecules/_customer.scss',
+				'_molecules/_containers.scss',
+				'_molecules/_pricing-tier.scss',
+				'_molecules/_navigation.scss';
 
 // Organisms
-@import	'_organisms/_blog-listing.scss',
-		'_organisms/_footer.scss',
-		'_organisms/_grid.scss',
-		'_organisms/_header.scss',
-		'_organisms/_sidebar.scss';
+@import	'_organisms/_footer.scss';
 
 // Templates
 @import	'_templates/_about-template.scss',
-		'_templates/_blog-post-template.scss',
-		'_templates/_landing-template.scss',
-		'_templates/_portfolio-template.scss';
+				'_templates/_landing-template.scss';
 
 // Helpers
-@import	'_helpers/_browser-hacks.scss',
-				'_helpers/_border-helper.scss',
+@import	'_helpers/_border-helper.scss',
 				'_helpers/_position-helper.scss',
 				'_helpers/_background-helper.scss';
