@@ -8,7 +8,10 @@ svg.logo-berry path {
 
 
 .illo-tote {
-    position: absolute;
-    top: -310px;
+  // These lines feel very hacky but it worked. Would love a second opinion.
+  // Sorry I couldn't remember how you said to do it over our phone convo!
+  left: 300px;
+  top: -230px;
+  z-index: 1000;
+  width: 50%;
 }
-
