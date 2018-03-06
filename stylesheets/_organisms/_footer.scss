@@ -3,26 +3,18 @@
 //  * Footer
 //  */
 
-#footer {
-	margin: 2rem 0;
-	font-size: 0.875rem;
-}
+// TODO: what to use: rem or em for fonts and spacing? why?
 
-.nav-footer {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-}
+footer {
+	font-size: 0.875rem; // this is an oddly specific font size?
 
-.nav-footer li {
-	padding: 0 1rem;
-}
+	nav {
+		li {
+			padding: 0 1rem;
+		}
 
-.nav-footer a:link,
-.nav-footer a:visited {
-	color: #696b74;
-	padding-top: 0;
-	padding-bottom: 0;
+		a:link, a:visited {
+			color: #696b74;
+		}
+	}
 }
-
