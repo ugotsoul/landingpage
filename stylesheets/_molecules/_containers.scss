@@ -1,7 +1,8 @@
-.container-padding {
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 100px;
-    padding-top: 80px;
+.breakout {
+  margin: 0 calc(50% - 50vw); // copied from: https://codepen.io/tigt/post/bust-elements-out-of-containers-with-one-line-of-css
+}
+
+.breakout > * {
+  margin: 0 auto;
+  max-width: 1140px; // Note: this is also the max-width of the parent container element
 }
