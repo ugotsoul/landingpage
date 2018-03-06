@@ -1,0 +1,22 @@
+ul, ol  {
+  list-style-position: outside;
+  padding-left: 1em;
+
+  li {
+    margin: 1em 0 !important;
+    padding-left: .5em;
+  }
+}
+
+ul.list-diamond {
+  list-style-image: url('../imgs/diamond.png');
+}
+
+ul.list-checkmark {
+  list-style-image: url('../imgs/check.png');
+
+  li {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+}
