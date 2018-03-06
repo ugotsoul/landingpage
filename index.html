@@ -41,56 +41,45 @@
               </div>
             </div>
         </nav>
-      </header>
-
-      <!-- Header section -->
-      <section>
-        <div class="container container-padding">
-          <div class="row">
-
-            <!-- Header section copy -->
-            <div class="col-md-7 relative zindex-2 header-copy">
-              <h2 class="padding-bottom-20px margin-top-none">Payroll, benefits, and HR that’s actually built for small businesses.</h2>
-              
-              <div class="row col-sm-11 padding-bottom-20px">
-                <h4 class="text-weight-normal mint sub-header">
+        <section class="py-5">
+          <div class="row pb-5">
+            <div class="col-md-7">
+              <h2 class="pb-3 mt-0">Payroll, benefits, and HR that’s actually built for small businesses.</h2>
+              <div class="pr-5">
+                <h3 class="mint">
                   See why 40,000+ businesses in all 50 states choose Gusto
-                </h4>
-              </div>
-         
-              <div class="row col-sm-11">
-                <ul class="a-list-bulleted-diamond padding-top-25px text-large">
-                  <li><p>9 out of 10 customers say <strong>Gusto is easier</strong> than other payroll solutions.</p></li>
-                  <li><p>71% of customers say Gusto <strong>makes compliance easier</strong></p></li>
-                  <li><p>Customers <strong>save on average 2 hours</strong> every time they onboard a new employee.</p></li>
+                </h3>
+                <ul class="list-diamond pt-2 pr-5 mr-5 text-large">
+                  <li>9 out of 10 customers say <strong>Gusto is easier</strong> than other payroll solutions.</li>
+                  <li>71% of customers say Gusto <strong>makes compliance easier</strong></li>
+                  <li>Customers <strong>save on average 2 hours</strong> every time they onboard a new employee.</li>
                 </ul>
               </div>
-            
-            </div> <!-- Header section copy ends -->
-
-            <!-- Header section form -->
-            <div class="col-md-12 col-lg-5 zindex-1">
-              <div class="form-wrapper">
-              <p class="text-center" style="margin-left: 14px;">Get started today</p>
-              <div class="form">
-                    <div id="company-lead-form">
-                      <form class="simple_form form-icon" novalidate="novalidate" id="new_company_lead" action="/invite/company" accept-charset="UTF-8" method="post"><input name="utf8" value="✓" type="hidden">
-                    <div class="form-group string optional company_lead_full_name form-group-icon-user"><input class="form-control string optional" autofocus="autofocus" placeholder="Full Name" name="company_lead[full_name]" id="company_lead_full_name" type="text"></div>
-                    <div class="form-group email optional company_lead_email form-group-icon-email"><input class="form-control string email optional" placeholder="Work Email Address" name="company_lead[email]" id="company_lead_email" type="email"></div>
-                    <input name="company_lead[tier]" id="company_lead_tier" type="hidden">
-                    <div class="form-group string optional company_lead_company_name form-group-icon-company"><input class="form-control string optional" placeholder="Company Name" name="company_lead[company_name]" id="company_lead_company_name" type="text"></div>
-                    <div class="form-action clearfix">
-                      <input name="commit" value="Get started" class="btn btn-berry col-sm-4 col-sm-offset-2 col-xs-10 col-xs-offset-1" type="submit">
+            </div>
+          <div class="col-md-5 pt-4 pl-5">
+            <p class="text-center text-large font-weight-bold">Get started today</p>
+            <!-- TODO: pull the code for a form out into its own component, reuse for the sign-up form (if this makes sense) -->
+            <div class="form">
+              <div id="company-lead-form">
+                <form class="simple_form form-icon" novalidate="novalidate" id="new_company_lead" action="/invite/company" accept-charset="UTF-8" method="post">
+                  <input name="utf8" value="✓" type="hidden">
+                  <div class="form-group string optional company_lead_full_name form-group-icon-user">
+                    <input class="form-control string optional" autofocus="autofocus" placeholder="&hearts; Full Name" name="company_lead[full_name]" id="company_lead_full_name" type="text">
+                  </div>
+                  <div class="form-group email optional company_lead_email form-group-icon-email"><input class="form-control string email optional" placeholder="Work Email Address" name="company_lead[email]" id="company_lead_email" type="email"></div>
+                  <input name="company_lead[tier]" id="company_lead_tier" type="hidden">
+                  <div class="form-group string optional company_lead_company_name form-group-icon-company"><input class="form-control string optional" placeholder="Company Name" name="company_lead[company_name]" id="company_lead_company_name" type="text"></div>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-berry">
+                      Get Started
+                    </a>
                   </div>
                 </form>
-                  </div>
-                </div>
+              </div>
+            </div>
           </div>
-          </div> <!-- Header section  form ends-->
-
-        </div>
-      </section> <!-- Header section ends -->
-
+        </section>
+      </header>
       <!-- Testimony section -->
       <!-- TODO: why is the section name attribute using a data- prefix, which is usually reserved for data from the model / server / framework? -->
       <section class="tech-validate bg-dk-mint breakout py-5" name="data-how-we-do-it">
